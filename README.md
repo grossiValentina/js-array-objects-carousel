@@ -18,3 +18,12 @@ BONUS 2:
 Aggiungere funzionalità di autoplay: dopo un certo periodo di tempo (3 secondi) l’immagine attiva dovrà cambiare alla successiva.
 BONUS 3:
 Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
+
+
+**DATI:**
+- array di oggetti delle immagini;
+
+**SVOLGIMENTO;**
+1. stampo in pagina tutti gli elementi di ogni array contenuti nell'oggetto;
+2. eseguo un ciclo for per far scorrere ogni elemento dell'array;
+3. aggiungo un evento ai bottoni di scorrimento del carosello, incrementando un ciclo infinito per lo scorrimento di esso;
